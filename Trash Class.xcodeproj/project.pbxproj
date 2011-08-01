@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1A80CF413E73FB0006F7E11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A80CF313E73FB0006F7E11 /* UIKit.framework */; };
+		A1A80CF613E73FB0006F7E11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A80CF513E73FB0006F7E11 /* Foundation.framework */; };
+		A1A80CF813E73FB0006F7E11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A80CF713E73FB0006F7E11 /* CoreGraphics.framework */; };
+		A1A80CFE13E73FB0006F7E11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1A80CFC13E73FB0006F7E11 /* InfoPlist.strings */; };
+		A1A80D0113E73FB0006F7E11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A80D0013E73FB0006F7E11 /* main.m */; };
+		A1A80D0413E73FB0006F7E11 /* Trash_ClassAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A80D0313E73FB0006F7E11 /* Trash_ClassAppDelegate.m */; };
+		A1A80D0713E73FB1006F7E11 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A80D0513E73FB1006F7E11 /* MainWindow.xib */; };
+		A1A80D0A13E73FB1006F7E11 /* Trash_ClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A80D0913E73FB1006F7E11 /* Trash_ClassViewController.m */; };
+		A1A80D0D13E73FB1006F7E11 /* Trash_ClassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A80D0B13E73FB1006F7E11 /* Trash_ClassViewController.xib */; };
+		A1A80D1413E73FB1006F7E11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A80CF313E73FB0006F7E11 /* UIKit.framework */; };
+		A1A80D1513E73FB1006F7E11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A80CF513E73FB0006F7E11 /* Foundation.framework */; };
+		A1A80D1613E73FB1006F7E11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A80CF713E73FB0006F7E11 /* CoreGraphics.framework */; };
+		A1A80D1E13E73FB1006F7E11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1A80D1C13E73FB1006F7E11 /* InfoPlist.strings */; };
+		A1A80D2113E73FB1006F7E11 /* Trash_ClassTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A1A80D2013E73FB1006F7E11 /* Trash_ClassTests.h */; };
+		A1A80D2313E73FB1006F7E11 /* Trash_ClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A80D2213E73FB1006F7E11 /* Trash_ClassTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1A80D1713E73FB1006F7E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1A80CE613E73FB0006F7E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1A80CEE13E73FB0006F7E11;
+			remoteInfo = "Trash Class";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1A80CEF13E73FB0006F7E11 /* Trash Class.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trash Class.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A80CF313E73FB0006F7E11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1A80CF513E73FB0006F7E11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1A80CF713E73FB0006F7E11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1A80CFB13E73FB0006F7E11 /* Trash Class-Info.plist */ = {isa = PBXFileReference; path = "Trash Class-Info.plist"; sourceTree = "<group>"; };
+		A1A80CFD13E73FB0006F7E11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1A80CFF13E73FB0006F7E11 /* Trash Class-Prefix.pch */ = {isa = PBXFileReference; path = "Trash Class-Prefix.pch"; sourceTree = "<group>"; };
+		A1A80D0013E73FB0006F7E11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1A80D0213E73FB0006F7E11 /* Trash_ClassAppDelegate.h */ = {isa = PBXFileReference; path = Trash_ClassAppDelegate.h; sourceTree = "<group>"; };
+		A1A80D0313E73FB0006F7E11 /* Trash_ClassAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trash_ClassAppDelegate.m; sourceTree = "<group>"; };
+		A1A80D0613E73FB1006F7E11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A1A80D0813E73FB1006F7E11 /* Trash_ClassViewController.h */ = {isa = PBXFileReference; path = Trash_ClassViewController.h; sourceTree = "<group>"; };
+		A1A80D0913E73FB1006F7E11 /* Trash_ClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trash_ClassViewController.m; sourceTree = "<group>"; };
+		A1A80D0C13E73FB1006F7E11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Trash_ClassViewController.xib; sourceTree = "<group>"; };
+		A1A80D1313E73FB1006F7E11 /* Trash ClassTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trash ClassTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A80D1B13E73FB1006F7E11 /* Trash ClassTests-Info.plist */ = {isa = PBXFileReference; path = "Trash ClassTests-Info.plist"; sourceTree = "<group>"; };
+		A1A80D1D13E73FB1006F7E11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1A80D1F13E73FB1006F7E11 /* Trash ClassTests-Prefix.pch */ = {isa = PBXFileReference; path = "Trash ClassTests-Prefix.pch"; sourceTree = "<group>"; };
+		A1A80D2013E73FB1006F7E11 /* Trash_ClassTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trash_ClassTests.h; sourceTree = "<group>"; };
+		A1A80D2213E73FB1006F7E11 /* Trash_ClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trash_ClassTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1A80CEC13E73FB0006F7E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A80CF413E73FB0006F7E11 /* UIKit.framework in Frameworks */,
+				A1A80CF613E73FB0006F7E11 /* Foundation.framework in Frameworks */,
+				A1A80CF813E73FB0006F7E11 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A80D0F13E73FB1006F7E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A80D1413E73FB1006F7E11 /* UIKit.framework in Frameworks */,
+				A1A80D1513E73FB1006F7E11 /* Foundation.framework in Frameworks */,
+				A1A80D1613E73FB1006F7E11 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1A80CE413E73FB0006F7E11 = {
+			isa = PBXGroup;
+			children = (
+				A1A80CF913E73FB0006F7E11 /* Trash Class */,
+				A1A80D1913E73FB1006F7E11 /* Trash ClassTests */,
+				A1A80CF213E73FB0006F7E11 /* Frameworks */,
+				A1A80CF013E73FB0006F7E11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1A80CF013E73FB0006F7E11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1A80CEF13E73FB0006F7E11 /* Trash Class.app */,
+				A1A80D1313E73FB1006F7E11 /* Trash ClassTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1A80CF213E73FB0006F7E11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1A80CF313E73FB0006F7E11 /* UIKit.framework */,
+				A1A80CF513E73FB0006F7E11 /* Foundation.framework */,
+				A1A80CF713E73FB0006F7E11 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1A80CF913E73FB0006F7E11 /* Trash Class */ = {
+			isa = PBXGroup;
+			children = (
+				A1A80D0213E73FB0006F7E11 /* Trash_ClassAppDelegate.h */,
+				A1A80D0313E73FB0006F7E11 /* Trash_ClassAppDelegate.m */,
+				A1A80D0513E73FB1006F7E11 /* MainWindow.xib */,
+				A1A80D0813E73FB1006F7E11 /* Trash_ClassViewController.h */,
+				A1A80D0913E73FB1006F7E11 /* Trash_ClassViewController.m */,
+				A1A80D0B13E73FB1006F7E11 /* Trash_ClassViewController.xib */,
+				A1A80CFA13E73FB0006F7E11 /* Supporting Files */,
+			);
+			path = "Trash Class";
+			sourceTree = "<group>";
+		};
+		A1A80CFA13E73FB0006F7E11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1A80CFB13E73FB0006F7E11 /* Trash Class-Info.plist */,
+				A1A80CFC13E73FB0006F7E11 /* InfoPlist.strings */,
+				A1A80CFF13E73FB0006F7E11 /* Trash Class-Prefix.pch */,
+				A1A80D0013E73FB0006F7E11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1A80D1913E73FB1006F7E11 /* Trash ClassTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1A80D2013E73FB1006F7E11 /* Trash_ClassTests.h */,
+				A1A80D2213E73FB1006F7E11 /* Trash_ClassTests.m */,
+				A1A80D1A13E73FB1006F7E11 /* Supporting Files */,
+			);
+			path = "Trash ClassTests";
+			sourceTree = "<group>";
+		};
+		A1A80D1A13E73FB1006F7E11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1A80D1B13E73FB1006F7E11 /* Trash ClassTests-Info.plist */,
+				A1A80D1C13E73FB1006F7E11 /* InfoPlist.strings */,
+				A1A80D1F13E73FB1006F7E11 /* Trash ClassTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1A80CEE13E73FB0006F7E11 /* Trash Class */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A80D2613E73FB1006F7E11 /* Build configuration list for PBXNativeTarget "Trash Class" */;
+			buildPhases = (
+				A1A80CEB13E73FB0006F7E11 /* Sources */,
+				A1A80CEC13E73FB0006F7E11 /* Frameworks */,
+				A1A80CED13E73FB0006F7E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trash Class";
+			productName = "Trash Class";
+			productReference = A1A80CEF13E73FB0006F7E11 /* Trash Class.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1A80D1213E73FB1006F7E11 /* Trash ClassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A80D2913E73FB1006F7E11 /* Build configuration list for PBXNativeTarget "Trash ClassTests" */;
+			buildPhases = (
+				A1A80D0E13E73FB1006F7E11 /* Sources */,
+				A1A80D0F13E73FB1006F7E11 /* Frameworks */,
+				A1A80D1013E73FB1006F7E11 /* Resources */,
+				A1A80D1113E73FB1006F7E11 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1A80D1813E73FB1006F7E11 /* PBXTargetDependency */,
+			);
+			name = "Trash ClassTests";
+			productName = "Trash ClassTests";
+			productReference = A1A80D1313E73FB1006F7E11 /* Trash ClassTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1A80CE613E73FB0006F7E11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = bcharp;
+			};
+			buildConfigurationList = A1A80CE913E73FB0006F7E11 /* Build configuration list for PBXProject "Trash Class" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1A80CE413E73FB0006F7E11;
+			productRefGroup = A1A80CF013E73FB0006F7E11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1A80CEE13E73FB0006F7E11 /* Trash Class */,
+				A1A80D1213E73FB1006F7E11 /* Trash ClassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1A80CED13E73FB0006F7E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A80CFE13E73FB0006F7E11 /* InfoPlist.strings in Resources */,
+				A1A80D0713E73FB1006F7E11 /* MainWindow.xib in Resources */,
+				A1A80D0D13E73FB1006F7E11 /* Trash_ClassViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A80D1013E73FB1006F7E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A80D1E13E73FB1006F7E11 /* InfoPlist.strings in Resources */,
+				A1A80D2113E73FB1006F7E11 /* Trash_ClassTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1A80D1113E73FB1006F7E11 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1A80CEB13E73FB0006F7E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A80D0113E73FB0006F7E11 /* main.m in Sources */,
+				A1A80D0413E73FB0006F7E11 /* Trash_ClassAppDelegate.m in Sources */,
+				A1A80D0A13E73FB1006F7E11 /* Trash_ClassViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A80D0E13E73FB1006F7E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A80D2313E73FB1006F7E11 /* Trash_ClassTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1A80D1813E73FB1006F7E11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1A80CEE13E73FB0006F7E11 /* Trash Class */;
+			targetProxy = A1A80D1713E73FB1006F7E11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1A80CFC13E73FB0006F7E11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1A80CFD13E73FB0006F7E11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1A80D0513E73FB1006F7E11 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1A80D0613E73FB1006F7E11 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A1A80D0B13E73FB1006F7E11 /* Trash_ClassViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1A80D0C13E73FB1006F7E11 /* en */,
+			);
+			name = Trash_ClassViewController.xib;
+			sourceTree = "<group>";
+		};
+		A1A80D1C13E73FB1006F7E11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1A80D1D13E73FB1006F7E11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1A80D2413E73FB1006F7E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1A80D2513E73FB1006F7E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A1A80D2713E73FB1006F7E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trash Class/Trash Class-Prefix.pch";
+				INFOPLIST_FILE = "Trash Class/Trash Class-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1A80D2813E73FB1006F7E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trash Class/Trash Class-Prefix.pch";
+				INFOPLIST_FILE = "Trash Class/Trash Class-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A1A80D2A13E73FB1006F7E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Trash Class.app/Trash Class";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trash ClassTests/Trash ClassTests-Prefix.pch";
+				INFOPLIST_FILE = "Trash ClassTests/Trash ClassTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A1A80D2B13E73FB1006F7E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Trash Class.app/Trash Class";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trash ClassTests/Trash ClassTests-Prefix.pch";
+				INFOPLIST_FILE = "Trash ClassTests/Trash ClassTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1A80CE913E73FB0006F7E11 /* Build configuration list for PBXProject "Trash Class" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A80D2413E73FB1006F7E11 /* Debug */,
+				A1A80D2513E73FB1006F7E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A80D2613E73FB1006F7E11 /* Build configuration list for PBXNativeTarget "Trash Class" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A80D2713E73FB1006F7E11 /* Debug */,
+				A1A80D2813E73FB1006F7E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1A80D2913E73FB1006F7E11 /* Build configuration list for PBXNativeTarget "Trash ClassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A80D2A13E73FB1006F7E11 /* Debug */,
+				A1A80D2B13E73FB1006F7E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1A80CE613E73FB0006F7E11 /* Project object */;
+}
