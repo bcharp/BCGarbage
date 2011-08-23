@@ -7,6 +7,8 @@
 //
 
 #import "Trash_ClassViewController.h"
+#import "BCGarbage.h"
+
 
 @implementation Trash_ClassViewController
 
@@ -25,13 +27,19 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    BCGarbage *garb = [[BCGarbage alloc] init];
+    [garb setToto:@"titi"];
+    
+    NSLog(@"%@",[garb toto]);
+    
 }
-*/
+
 
 - (void)viewDidUnload
 {

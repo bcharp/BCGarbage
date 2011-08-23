@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A17BFCF1140429B0009BBF22 /* BCGarbage.m in Sources */ = {isa = PBXBuildFile; fileRef = A17BFCF0140429B0009BBF22 /* BCGarbage.m */; };
 		A1A80CF413E73FB0006F7E11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A80CF313E73FB0006F7E11 /* UIKit.framework */; };
 		A1A80CF613E73FB0006F7E11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A80CF513E73FB0006F7E11 /* Foundation.framework */; };
 		A1A80CF813E73FB0006F7E11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A80CF713E73FB0006F7E11 /* CoreGraphics.framework */; };
@@ -35,24 +36,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A17BFCEF140429B0009BBF22 /* BCGarbage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCGarbage.h; sourceTree = "<group>"; };
+		A17BFCF0140429B0009BBF22 /* BCGarbage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCGarbage.m; sourceTree = "<group>"; };
 		A1A80CEF13E73FB0006F7E11 /* Trash Class.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trash Class.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A80CF313E73FB0006F7E11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A1A80CF513E73FB0006F7E11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1A80CF713E73FB0006F7E11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A1A80CFB13E73FB0006F7E11 /* Trash Class-Info.plist */ = {isa = PBXFileReference; path = "Trash Class-Info.plist"; sourceTree = "<group>"; };
+		A1A80CFB13E73FB0006F7E11 /* Trash Class-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trash Class-Info.plist"; sourceTree = "<group>"; };
 		A1A80CFD13E73FB0006F7E11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A1A80CFF13E73FB0006F7E11 /* Trash Class-Prefix.pch */ = {isa = PBXFileReference; path = "Trash Class-Prefix.pch"; sourceTree = "<group>"; };
+		A1A80CFF13E73FB0006F7E11 /* Trash Class-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trash Class-Prefix.pch"; sourceTree = "<group>"; };
 		A1A80D0013E73FB0006F7E11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A1A80D0213E73FB0006F7E11 /* Trash_ClassAppDelegate.h */ = {isa = PBXFileReference; path = Trash_ClassAppDelegate.h; sourceTree = "<group>"; };
+		A1A80D0213E73FB0006F7E11 /* Trash_ClassAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trash_ClassAppDelegate.h; sourceTree = "<group>"; };
 		A1A80D0313E73FB0006F7E11 /* Trash_ClassAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trash_ClassAppDelegate.m; sourceTree = "<group>"; };
 		A1A80D0613E73FB1006F7E11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		A1A80D0813E73FB1006F7E11 /* Trash_ClassViewController.h */ = {isa = PBXFileReference; path = Trash_ClassViewController.h; sourceTree = "<group>"; };
+		A1A80D0813E73FB1006F7E11 /* Trash_ClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trash_ClassViewController.h; sourceTree = "<group>"; };
 		A1A80D0913E73FB1006F7E11 /* Trash_ClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trash_ClassViewController.m; sourceTree = "<group>"; };
 		A1A80D0C13E73FB1006F7E11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Trash_ClassViewController.xib; sourceTree = "<group>"; };
 		A1A80D1313E73FB1006F7E11 /* Trash ClassTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trash ClassTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1A80D1B13E73FB1006F7E11 /* Trash ClassTests-Info.plist */ = {isa = PBXFileReference; path = "Trash ClassTests-Info.plist"; sourceTree = "<group>"; };
+		A1A80D1B13E73FB1006F7E11 /* Trash ClassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trash ClassTests-Info.plist"; sourceTree = "<group>"; };
 		A1A80D1D13E73FB1006F7E11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A1A80D1F13E73FB1006F7E11 /* Trash ClassTests-Prefix.pch */ = {isa = PBXFileReference; path = "Trash ClassTests-Prefix.pch"; sourceTree = "<group>"; };
+		A1A80D1F13E73FB1006F7E11 /* Trash ClassTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trash ClassTests-Prefix.pch"; sourceTree = "<group>"; };
 		A1A80D2013E73FB1006F7E11 /* Trash_ClassTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trash_ClassTests.h; sourceTree = "<group>"; };
 		A1A80D2213E73FB1006F7E11 /* Trash_ClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trash_ClassTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +116,8 @@
 		A1A80CF913E73FB0006F7E11 /* Trash Class */ = {
 			isa = PBXGroup;
 			children = (
+				A17BFCEF140429B0009BBF22 /* BCGarbage.h */,
+				A17BFCF0140429B0009BBF22 /* BCGarbage.m */,
 				A1A80D0213E73FB0006F7E11 /* Trash_ClassAppDelegate.h */,
 				A1A80D0313E73FB0006F7E11 /* Trash_ClassAppDelegate.m */,
 				A1A80D0513E73FB1006F7E11 /* MainWindow.xib */,
@@ -200,6 +205,7 @@
 		A1A80CE613E73FB0006F7E11 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = bcharp;
 			};
 			buildConfigurationList = A1A80CE913E73FB0006F7E11 /* Build configuration list for PBXProject "Trash Class" */;
@@ -266,6 +272,7 @@
 				A1A80D0113E73FB0006F7E11 /* main.m in Sources */,
 				A1A80D0413E73FB0006F7E11 /* Trash_ClassAppDelegate.m in Sources */,
 				A1A80D0A13E73FB1006F7E11 /* Trash_ClassViewController.m in Sources */,
+				A17BFCF1140429B0009BBF22 /* BCGarbage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +453,7 @@
 				A1A80D2813E73FB1006F7E11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1A80D2913E73FB1006F7E11 /* Build configuration list for PBXNativeTarget "Trash ClassTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +462,7 @@
 				A1A80D2B13E73FB1006F7E11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
